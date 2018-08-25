@@ -1,9 +1,8 @@
-package demoapp.com.demoapp;
+package demoapp.com.demoapp.Activitys;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.os.AsyncTask;
-import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -27,6 +26,7 @@ import java.util.ArrayList;
 
 import demoapp.com.demoapp.Adaptors.ImageListAdaptor;
 import demoapp.com.demoapp.DataBeans.DataBeanImages;
+import demoapp.com.demoapp.R;
 
 import static demoapp.com.demoapp.Tools.httpUrls.MAIN_API;
 
@@ -88,10 +88,6 @@ public class MainActivity extends AppCompatActivity
     public class GetAllImages extends AsyncTask<String, String, String>
     {
         Context ctx;
-
-
-        
-
         GetAllImages(Context ctx) {
             this.ctx = ctx;
         }

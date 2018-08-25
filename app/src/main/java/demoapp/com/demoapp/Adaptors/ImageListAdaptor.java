@@ -20,7 +20,6 @@ import java.io.InputStream;
 import java.util.ArrayList;
 
 import demoapp.com.demoapp.DataBeans.DataBeanImages;
-import demoapp.com.demoapp.ImageCache.ImageLoader;
 import demoapp.com.demoapp.R;
 
 public class ImageListAdaptor extends ArrayAdapter<DataBeanImages> {
@@ -28,7 +27,6 @@ public class ImageListAdaptor extends ArrayAdapter<DataBeanImages> {
     DataBeanImages dbItemsDist;
     TextView tvName;
     ImageView ivImage;
-    private ImageLoader imgLoader;
 
     public static final String PREFS_NAME = "Images";
     SharedPreferences settings;
