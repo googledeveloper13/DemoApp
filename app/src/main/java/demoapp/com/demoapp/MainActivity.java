@@ -89,6 +89,7 @@ public class MainActivity extends AppCompatActivity
     {
         Context ctx;
 
+        
 
         GetAllImages(Context ctx) {
             this.ctx = ctx;
@@ -100,7 +101,7 @@ public class MainActivity extends AppCompatActivity
             super.onPreExecute();
             spinner.setVisibility(View.VISIBLE);
 
-            
+
         }
 
         @Override
