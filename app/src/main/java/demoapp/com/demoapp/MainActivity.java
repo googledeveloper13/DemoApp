@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity
 
     }
 
+
     public final boolean isInternetOn() {
 
         // get Connectivity Manager object to check connection
@@ -88,6 +89,7 @@ public class MainActivity extends AppCompatActivity
     {
         Context ctx;
 
+        
         GetAllImages(Context ctx) {
             this.ctx = ctx;
         }
@@ -182,7 +184,7 @@ public class MainActivity extends AppCompatActivity
             catch (NullPointerException e)
             {
                 Toast.makeText(ctx, "Server issue", Toast.LENGTH_SHORT).show();
-            } 
+            }
 
             super.onPostExecute(result);
 
