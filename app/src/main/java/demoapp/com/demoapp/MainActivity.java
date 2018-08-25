@@ -182,7 +182,7 @@ public class MainActivity extends AppCompatActivity
             catch (NullPointerException e)
             {
                 Toast.makeText(ctx, "Server issue", Toast.LENGTH_SHORT).show();
-            }
+            } 
 
             super.onPostExecute(result);
 
